@@ -36,7 +36,7 @@ class App < Sinatra::Base
     elsif operation == "divide"
       "#{params[:number1]} / #{params[:number2]}"
     end
-    result
+    result.to_s
   end
 
 end
