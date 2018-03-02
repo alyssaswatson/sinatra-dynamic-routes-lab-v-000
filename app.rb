@@ -29,6 +29,14 @@ class App < Sinatra::Base
 
     if operation == "add"
       "#{params[:number1]} + #{params[:number2]}"
+    elsif operation == "multiply"
+
+    elsif operation == "subtract"
+
+    elsif operation == "divide"  
+      
     end
+
   end
+
 end
