@@ -18,4 +18,7 @@ class App < Sinatra::Base
       final_string += "#{params[:phrase]}\n"
     end
     final_string
+
+
+    
 end
